@@ -160,13 +160,11 @@ streamlit run app.py
 ## GitHub Push Commands
 After verifying everything works, run:
 ```powershell
-cd C:\Users\Roja\smart-content-pipeline
+echo "# pdf-ai-assistant-mini-project" >> README.md
 git init
-git add .
-git commit --trailer "Made-with: Cursor" -m "Build Grok-powered PDF RAG assistant with Streamlit UI and notebooks"
+git add README.md
+git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/rojadasappa/pdf-ai-assistant-mini-project.git
 git push -u origin main
-```
-
-If repository does not exist yet, create it first on GitHub, then run the same commands.
+'''
